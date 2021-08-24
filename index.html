@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Tugas Array Trio</title>
+    <link rel="stylesheet" href="format.css" />
+</head>
+<body>
+<div class="square1">
+<h1>Tugas1: membuat list yang berisi pekerjaan yang berhubungan dengan programmer yang sumbernya dari data array</h1>
+<p>data array asli ["CTO", "Front-End Web Developer", "Back-End Web Developer", "Web Designer", "Full-Stuck Developer]</p>
+<ul>
+ <li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+<li> </li>
+</ul>
+<script src="array.js"> </script>
+<h2>Tugas2: membuat data array berisi nama-nama anggota team dan membagi tiap item pada array tersebut menjadi 2 bagian</h2>
+<p>data array asli ["Arman", "Nano", "Lexi", "Anggun", "Nisa", "Lina"]</p>
+<p>Nama Anggota group1</p>
+<ul>
+<li class="lis"> </li>
+<li class="lis"> </li>
+<li class="lis"> </li>
+</ul>
+<p>Nama Anggota group2</p>
+<ul>
+<li class="list"> </li>
+<li class="list"> </li>
+<li class="list"> </li>
+</ul>
+<script src="array2.js"> </script>
+<h3>Tugas3: membuat array baru yang berisi perkalian 5 dari array sebelumnya</h3>
+<p id="para"> </p>
+<p id="par"> </p>
+<script src="array4.js"> </script>
+<h4>Tugas 4: Mengecek kesamaan data array dan menuliskannya kembali jika terdapat kesamaan</h4>
+<p>Perhatikan array berikut!</p>
+<p>Array materi pelajaran pertama = [‘Math’, ‘English’, ‘Programming’]</p>
+<p>Array materi pelajaran kedua = [‘Geography’, ‘Spanish’, ‘Programming’]</p>
+<p id="muncul"> </p>
+<script src="array6.js"> </script>
+<h5>Tugas5: Menampung tweet dari user yang mereka ketikkan di dalam form</h5>
+<form>
+                <input type="text" id="tulisanUser" placeholder="Apa yang ingin anda ungkapkan?" />
+                <input type="button" onclick="uploadTweet()" value="Tweet" />
+<!--value berfungsi agar tombolnya diberi nilai Tweet, sehingga screenreader mengucapkan Tweet button-->
+</form>
+                <p>Tweet Anda adalah: <span id="hasilTulisanUser"></span></p>
+
+<script src="array8.js"> </script>
+<h6>Tugas6: memfalidasi password</h6>
+<p>Buatlah sebuah program registrasi berisi username dan password. Kemudian Lakukan validasi berikut:</p>
+<br>1) Username minimal 6 karakter
+<br>2) Password minimal 8 karakter
+<br>3) Jika inputan anda tidak sesuai maka user name dan password tidak akan tercetak
+<br>3) Saat user melakukan registrasi simpan data didalam Array
+<br>4) Tampilkan data setiap user melakukan registrasi
+<br>5) Saat password ditampilkan, ganti dengan string yang berbeda. Gunakan replace method.
+
+<form>
+<table>
+<tr>
+<th>
+Username:
+</th>
+<th>
+<input type="text" id="usrnm" />
+</th>
+</tr>
+<tr>
+<th>
+Password: 
+</th>
+<th>
+<input type="password" id="pswd" />
+</th>
+</tr>
+</table>
+                <input type="button" onclick="tampilkanData()" value="Submit" />
+</form>
+<p>Input yang telah Anda masukkan yaitu, <span id="data"></span> </p>
+</div>
+
+<script src="array10.js"> </script>
+</body>
+</html>
